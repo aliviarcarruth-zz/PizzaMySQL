@@ -38,8 +38,9 @@ include('templates/header.php');
 
     <div class="col s6 md3">
         <div class="card z-depth-0">
+            <img src="imgs/pizza.svg" class="pizza">
             <div class="card-content center">
-                <h6 id="title"><?php echo htmlspecialchars($pizza['title']);?></h6>
+                <h5><?php echo htmlspecialchars($pizza['title']);?></h5>
                 <ul>
                     <?php foreach (explode(',', $pizza['ingredients']) as $ing): ?>
                         <li><?php echo htmlspecialchars($ing); ?></li>

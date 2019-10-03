@@ -19,8 +19,12 @@
             padding: 20px;
         }
 
-        #title {
-          font-style: italic;
+        .pizza{
+            width: 100px;
+            margin: 40px auto -30px;
+            display: block;
+            position: relative;
+            top: -30px;
         }
     </style>
 
