@@ -18,6 +18,10 @@
             padding: 20px;
             padding: 20px;
         }
+
+        #title {
+          font-style: italic;
+        }
     </style>
 
 </head>
